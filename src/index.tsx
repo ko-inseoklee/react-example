@@ -4,13 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Counter from './vac/Counter';
+import { UseCallbackExample } from './use-callback-example';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <Counter />
+    {/* <Counter /> */}
+    <UseCallbackExample />
   </React.StrictMode>
 );
 
